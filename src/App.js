@@ -2622,13 +2622,12 @@ const questions = [
 
 function App() {
 //   const originalAnswers =  {};
-  const originalAnswers = localStorage.getItem('answers') || {};
-  const [selectedAnswers, setSelectedAnswers] = useState(JSON.parse(originalAnswers));
-// debugger;
+  const originalAnswers = localStorage.getItem('answers1') || {};
+  const [selectedAnswers, setSelectedAnswers] = useState(Object.keys(originalAnswers).length === 0 ? {} : JSON.parse(originalAnswers));
   const handleAnswerChange = (questionIndex, answer) => {
     const newAnswers = { ...selectedAnswers, [questionIndex]: answer };
     setSelectedAnswers(newAnswers);
-    localStorage.setItem('answers', JSON.stringify(newAnswers));
+    localStorage.setItem('answers1', JSON.stringify(newAnswers));
   };
 
   const isCorrect = (questionIndex) => {
