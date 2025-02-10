@@ -2286,335 +2286,1041 @@ const questions = [
     },
     // quiz 7 below
     
+    {
+        "question": "A 38-year-old woman was bitten by fire ants while at the park. Your primary assessment reveals that she is semiconscious; has labored breathing; and has a rapid, thready pulse. She has a red rash on her entire body, and her face is swollen. You should:",
+        "answers": {
+            "A": "locate the area where the fire ants bit her.",
+            "B": "assist her ventilations with 100% oxygen.",
+            "C": "place her supine with her legs elevated.",
+            "D": "perform a rapid secondary assessment."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Common side effects of epinephrine include all of the following, EXCEPT:",
+        "answers": {
+            "A": "tachycardia.",
+            "B": "dizziness.",
+            "C": "headache.",
+            "D": "drowsiness."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Which of the following statements regarding epinephrine administration via the intramuscular (IM) route is correct?",
+        "answers": {
+            "A": "The IM route should not be used in children.",
+            "B": "The preferred injection site is the upper arm.",
+            "C": "The maximum single adult dose is 0.15 mg.",
+            "D": "The 1:1000 concentration should be used."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "You respond to the residence of a 55-year-old woman with a possible allergic reaction to peanuts that she ate approximately 30 minutes ago. The patient is conscious and alert, but has diffuse urticaria and the feeling that she has a lump in her throat. As your partner applies oxygen to the patient, you should:",
+        "answers": {
+            "A": "ask her when her last allergic reaction occurred.",
+            "B": "obtain a complete set of baseline vital signs.",
+            "C": "ascertain if she has a family history of allergies.",
+            "D": "ask her if she has prescribed epinephrine."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "A construction worker complains of intense pain after a bag of dry powder was spilled on his arm. The EMT should:",
+        "answers": {
+            "A": "cover the exposed area with a sterile dressing and elevate his arm.",
+            "B": "immediately flush the skin with clean water for 15 to 20 minutes.",
+            "C": "brush the chemical from his arm and cover it with a sterile dressing.",
+            "D": "brush the chemical from his arm and then flush the skin with water."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "A man with a prolonged history of alcohol abuse fell from a second-story balcony. His blood pressure is 80/60 mm Hg, his heart rate is 120 beats/min, and his skin is cool and pale. When caring for this patient, the EMT should recall that:",
+        "answers": {
+            "A": "patients with alcoholism are prone to hyperthermia.",
+            "B": "patients with alcoholism are prone to hyperglycemia.",
+            "C": "reduced blood clotting worsens internal bleeding.",
+            "D": "alcohol is a stimulant, which likely caused his fall."
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "An overdose of acetaminophen, the active ingredient in Tylenol, will most likely cause:",
+        "answers": {
+            "A": "central nervous system depression.",
+            "B": "acute kidney failure.",
+            "C": "liver damage and failure.",
+            "D": "bleeding gastric ulcers."
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Atropine sulfate and pralidoxime chloride are antidotes for:",
+        "answers": {
+            "A": "lysergic acid diethylamide (LSD).",
+            "B": "nerve gas agents.",
+            "C": "diphenhydramine (Benadryl).",
+            "D": "anticholinergic drugs."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Delirium tremens (DTs) is a syndrome associated with withdrawal from:",
+        "answers": {
+            "A": "sedatives.",
+            "B": "cocaine.",
+            "C": "alcohol.",
+            "D": "opioids."
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Activated charcoal may be indicated for a patient who ingested:",
+        "answers": {
+            "A": "aspirin.",
+            "B": "methanol.",
+            "C": "iron.",
+            "D": "ethanol."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "An EMT’s primary responsibility to the patient who has been poisoned is to:",
+        "answers": {
+            "A": "recognize that a poisoning occurred.",
+            "B": "administer 25 g of activated charcoal.",
+            "C": "administer the appropriate antidote.",
+            "D": "contact poison control immediately."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Heroin is an example of a(n):",
+        "answers": {
+            "A": "opioid.",
+            "B": "cholinergic.",
+            "C": "hypnotic.",
+            "D": "sympathomimetic."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Hypotension, hypoventilation, and pinpoint pupils would be expected following an overdose of:",
+        "answers": {
+            "A": "amphetamine sulfate (Benzedrine).",
+            "B": "oxycodone (Percocet).",
+            "C": "crack cocaine.",
+            "D": "ecstasy."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Most poisonings occur via the __________ route.",
+        "answers": {
+            "A": "injection",
+            "B": "inhalation",
+            "C": "absorption",
+            "D": "ingestion"
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Substance abuse is most accurately defined as:",
+        "answers": {
+            "A": "knowingly selling illicit drugs to buy more drugs.",
+            "B": "willfully using a therapeutic drug to treat a medical illness.",
+            "C": "unwillingly and unknowingly consuming drugs or alcohol.",
+            "D": "misusing a substance to produce a desired effect."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "____________ is what you can see of a person’s response to the environment.",
+        "answers": {
+            "A": "Neurosis",
+            "B": "Behavior",
+            "C": "Psychosis",
+            "D": "Affect"
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "A technique used to gain insight into a patient’s thinking, which involves repeating in question form what the patient has said, is called:",
+        "answers": {
+            "A": "intuitive listening.",
+            "B": "passive listening.",
+            "C": "active listening.",
+            "D": "reflective listening."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "After ensuring his or her own safety, the EMT’s next priority when caring for a patient with a behavioral emergency is to:",
+        "answers": {
+            "A": "assess the patient’s response to his or her environment.",
+            "B": "transport the patient directly to a specialized psychiatric facility.",
+            "C": "determine the underlying cause of the problem and offer advice.",
+            "D": "diagnose the patient’s problem and provide definitive treatment."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Posttraumatic stress disorder can happen after:",
+        "answers": {
+            "A": "alcohol withdrawal.",
+            "B": "a bout with depression.",
+            "C": "extended periods of hyperthermia or hypothermia.",
+            "D": "exposure to or injury from a traumatic occurrence."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Signs of excited delirium include:",
+        "answers": {
+            "A": "subdued behavior, crying, and suicidal thoughts.",
+            "B": "diaphoresis, tachycardia, and hallucinations.",
+            "C": "slurred speech, bradycardia, and a high fever.",
+            "D": "pallor, hypotension, and constricted pupils."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The single most significant factor that contributes to suicide is:",
+        "answers": {
+            "A": "a chronic illness.",
+            "B": "depression.",
+            "C": "advanced age.",
+            "D": "drug abuse."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The term “behavioral crisis” is MOST accurately defined as:",
+        "answers": {
+            "A": "a medical illness with psychological symptoms that may lead to limited motor functioning.",
+            "B": "a situation in which a patient of any age exhibits agitated, violent, or uncooperative behavior.",
+            "C": "a period of severe depression that lasts longer than 2 weeks and cannot be controlled with medications.",
+            "D": "a sudden, violent outburst of an otherwise mentally stable person toward a family member."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "When assessing a patient who is displaying bizarre behavior, the EMT should:",
+        "answers": {
+            "A": "consider that an acute medical illness may be causing the patient’s behavior.",
+            "B": "avoid asking questions about suicide because this may give the patient ideas.",
+            "C": "check his or her blood glucose level only if he or she has a history of diabetes.",
+            "D": "carefully document his or her perception of what is causing the patient’s behavior."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "You receive a call for a domestic dispute. When you arrive at the scene, you find a young male standing on the front porch of his house. You notice that an adjacent window is broken. The patient has a large body, is clenching his fists, and is yelling obscenities at you. Which of the following findings is LEAST predictive of this patient’s potential for violence?",
+        "answers": {
+            "A": "The broken window",
+            "B": "His clenched fists",
+            "C": "His large body size",
+            "D": "His shouting of obscenities"
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "A raised, swollen, well-defined area on the skin that is the result of an insect bite or sting is called:",
+        "answers": {
+            "A": "a wheal.",
+            "B": "urticaria.",
+            "C": "purpura.",
+            "D": "a pustule."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Epinephrine is indicated for patients with an allergic reaction when:",
+        "answers": {
+            "A": "a paramedic is present at the scene.",
+            "B": "the reaction produces severe urticaria.",
+            "C": "wheezing and hypotension are present.",
+            "D": "the patient is anxious and tachycardic."
+        },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Immediately after giving an epinephrine injection, you should:",
+        "answers": {
+            "A": "properly dispose of the syringe.",
+            "B": "notify medical control of your action.",
+            "C": "reassess the patient’s vital signs.",
+            "D": "record the time and dose given."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "The effects of epinephrine are typically observed within _________ following administration.",
+        "answers": {
+            "A": "1 minute",
+            "B": "1 hour",
+            "C": "30 minutes",
+            "D": "30 seconds"
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "The stinger from a honeybee should be:",
+        "answers": {
+            "A": "squeezed with tweezers and removed.",
+            "B": "scraped away from the skin.",
+            "C": "left in place and covered.",
+            "D": "irrigated with copious amounts of water."
+        },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Two of the MOST common signs of anaphylaxis are:",
+        "answers": {
+            "A": "urticaria and angioedema.",
+            "B": "hypertension and swollen hands.",
+            "C": "expiratory stridor and tachycardia.",
+            "D": "watery eyes and localized itching."
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Urticaria is the medical term for:",
+        "answers": {
+            "A": "swelling.",
+            "B": "a wheal.",
+            "C": "burning.",
+            "D": "hives."
+        },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Which of the following sounds indicates swelling of the upper airway?",
+        "answers": {
+            "A": "Stridor",
+            "B": "Rales",
+            "C": "Wheezing",
+            "D": "Rhonchi"
+        },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "While auscultating breath sounds of a patient who was stung multiple times by a yellow jacket, you hear bilateral wheezing over all lung fields. This indicates:",
+        "answers": {
+            "A": "rapid swelling of the upper airway tissues.",
+            "B": "a significant amount of fluid in the alveoli.",
+            "C": "enlargement of the bronchioles in the lungs.",
+            "D": "narrowing of the bronchioles in the lungs."
+        },
+        "correctAnswer": "D"
+    },
+    // quiz 8
+    
         {
-            "question": "A 38-year-old woman was bitten by fire ants while at the park. Your primary assessment reveals that she is semiconscious; has labored breathing; and has a rapid, thready pulse. She has a red rash on her entire body, and her face is swollen. You should:",
+            "question": "A 12-year-old male jumped approximately 12 feet from a tree and landed on his feet. He complains of pain to his lower back. What injury mechanism is MOST likely responsible for his back pain?",
             "answers": {
-                "A": "locate the area where the fire ants bit her.",
-                "B": "assist her ventilations with 100% oxygen.",
-                "C": "place her supine with her legs elevated.",
-                "D": "perform a rapid secondary assessment."
+                "A": "Energy transmission to the spine",
+                "B": "Lateral impact to the spine",
+                "C": "Direct trauma to the spinal column",
+                "D": "Secondary fall after the initial impact"
             },
-            "correctAnswer": "B"
+            "correctAnswer": "A"
         },
         {
-            "question": "Common side effects of epinephrine include all of the following, EXCEPT:",
+            "question": "Internal injuries caused by gunshot wounds are difficult to predict because:",
             "answers": {
-                "A": "tachycardia.",
-                "B": "dizziness.",
-                "C": "headache.",
-                "D": "drowsiness."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "Which of the following statements regarding epinephrine administration via the intramuscular (IM) route is correct?",
-            "answers": {
-                "A": "The IM route should not be used in children.",
-                "B": "The preferred injection site is the upper arm.",
-                "C": "The maximum single adult dose is 0.15 mg.",
-                "D": "The 1:1000 concentration should be used."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "You respond to the residence of a 55-year-old woman with a possible allergic reaction to peanuts that she ate approximately 30 minutes ago. The patient is conscious and alert, but has diffuse urticaria and the feeling that she has a lump in her throat. As your partner applies oxygen to the patient, you should:",
-            "answers": {
-                "A": "ask her when her last allergic reaction occurred.",
-                "B": "obtain a complete set of baseline vital signs.",
-                "C": "ascertain if she has a family history of allergies.",
-                "D": "ask her if she has prescribed epinephrine."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "A construction worker complains of intense pain after a bag of dry powder was spilled on his arm. The EMT should:",
-            "answers": {
-                "A": "cover the exposed area with a sterile dressing and elevate his arm.",
-                "B": "immediately flush the skin with clean water for 15 to 20 minutes.",
-                "C": "brush the chemical from his arm and cover it with a sterile dressing.",
-                "D": "brush the chemical from his arm and then flush the skin with water."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "A man with a prolonged history of alcohol abuse fell from a second-story balcony. His blood pressure is 80/60 mm Hg, his heart rate is 120 beats/min, and his skin is cool and pale. When caring for this patient, the EMT should recall that:",
-            "answers": {
-                "A": "patients with alcoholism are prone to hyperthermia.",
-                "B": "patients with alcoholism are prone to hyperglycemia.",
-                "C": "reduced blood clotting worsens internal bleeding.",
-                "D": "alcohol is a stimulant, which likely caused his fall."
+                "A": "the area of damage is usually smaller than the bullet.",
+                "B": "the caliber of the bullet is frequently unknown.",
+                "C": "the bullet may tumble or ricochet within the body.",
+                "D": "exit wounds caused by the bullet are usually small."
             },
             "correctAnswer": "C"
         },
         {
-            "question": "An overdose of acetaminophen, the active ingredient in Tylenol, will most likely cause:",
+            "question": "Signs of a pulmonary blast injury include:",
             "answers": {
-                "A": "central nervous system depression.",
-                "B": "acute kidney failure.",
-                "C": "liver damage and failure.",
-                "D": "bleeding gastric ulcers."
+                "A": "an irregular pulse.",
+                "B": "coughing up blood.",
+                "C": "multiple rib fractures.",
+                "D": "vomiting blood."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "The index of suspicion is MOST accurately defined as:",
+            "answers": {
+                "A": "a predictable pattern that leads to serious injuries.",
+                "B": "the way in which traumatic injuries occur.",
+                "C": "the detection of less obvious life-threatening injuries.",
+                "D": "your awareness and concern for potentially serious underlying injuries."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "When the speed of a motor vehicle doubles, the amount of kinetic energy:",
+            "answers": {
+                "A": "doubles.",
+                "B": "is not affected.",
+                "C": "triples.",
+                "D": "quadruples."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "Which of the following interventions is the MOST critical to the outcome of a patient with multisystem trauma?",
+            "answers": {
+                "A": "Intravenous fluid administration",
+                "B": "Early administration of oxygen",
+                "C": "Rapid transport to a trauma center",
+                "D": "Elevation of the lower extremities"
             },
             "correctAnswer": "C"
         },
         {
-            "question": "Atropine sulfate and pralidoxime chloride are antidotes for:",
+            "question": "Extrication is defined as:",
             "answers": {
-                "A": "lysergic acid diethylamide (LSD).",
-                "B": "nerve gas agents.",
-                "C": "diphenhydramine (Benadryl).",
-                "D": "anticholinergic drugs."
+                "A": "immobilizing a patient before moving him or her.",
+                "B": "dismantling an automobile to remove a victim.",
+                "C": "using heavy equipment to access a patient.",
+                "D": "removal from a dangerous situation or position."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "The EMT’s role at the scene of a search and rescue attempt is to:",
+            "answers": {
+                "A": "direct the search effort from a centralized location.",
+                "B": "accompany search team members and provide care.",
+                "C": "report to a location where the patient will be carried.",
+                "D": "stand by at the command post until the person is located."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "Upon arriving at the scene of a law enforcement tactical situation, you should ensure your own safety and then:",
+            "answers": {
+                "A": "begin immediate triage of any injured personnel.",
+                "B": "apprise medical control of the tactical situation.",
+                "C": "locate all injured personnel and begin treatment.",
+                "D": "report to the incident commander for instructions."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "When removing a critically injured patient from his or her vehicle, you should:",
+            "answers": {
+                "A": "remove him or her using a short backboard.",
+                "B": "protect the cervical spine during the entire process.",
+                "C": "move him or her in one fast, continuous step.",
+                "D": "release c-spine control to facilitate rapid removal."
             },
             "correctAnswer": "B"
         },
         {
-            "question": "Delirium tremens (DTs) is a syndrome associated with withdrawal from:",
+            "question": "Your primary concern when arriving at the scene of a motor vehicle crash is:",
             "answers": {
-                "A": "sedatives.",
-                "B": "cocaine.",
-                "C": "alcohol.",
-                "D": "opioids."
+                "A": "gaining access to the patient(s).",
+                "B": "surveying the area for hazards.",
+                "C": "immediately beginning triage.",
+                "D": "requesting additional resources."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "Which of the following statements regarding the rapid extrication technique is correct?",
+            "answers": {
+                "A": "Rapid extrication is indicated if the scene is unsafe and the patient is not entrapped in his or her vehicle.",
+                "B": "It involves rapidly removing a patient from his or her vehicle after immobilizing him or her with a short backboard.",
+                "C": "The only indication for performing a rapid extrication is if the patient is not entrapped and is in cardiac arrest.",
+                "D": "Rapid extrication involves the use of heavy equipment to disentangle a patient from his or her crashed vehicle."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "A unique consideration when dealing with a hybrid vehicle is that:",
+            "answers": {
+                "A": "cutting the battery cables often results in an explosion or fire.",
+                "B": "rescue teams should disconnect the positive battery cable first.",
+                "C": "you must locate the ignition switch and cut it to prevent a fire.",
+                "D": "the battery has higher voltage than a traditional vehicle battery."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "Upon arriving at the scene of a motor vehicle crash, you can see three patients, one who is entrapped in his car and two who have been ejected from their vehicle. You should:",
+            "answers": {
+                "A": "begin triage to determine injury severity.",
+                "B": "call medical control for further direction.",
+                "C": "request law enforcement for traffic control.",
+                "D": "immediately request additional resources."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "Your unit has been dispatched to stand by at the scene of a structure fire. There are no injuries of which you are aware. Upon arriving at the scene, you should:",
+            "answers": {
+                "A": "set up a staging area where firefighters can be treated if necessary.",
+                "B": "ask the incident commander where the ambulance should be staged.",
+                "C": "park your ambulance behind the incident commander’s vehicle.",
+                "D": "contact medical control and apprise him or her of the situation."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "By what mechanism is a person injured when he or she falls from a significant height?",
+            "answers": {
+                "A": "Kinetic energy is converted to potential energy; the potential energy is then converted into the work of bringing the body to a stop.",
+                "B": "As the person falls, the amount of kinetic energy is converted into work; work is then converted to kinetic energy upon impact.",
+                "C": "Potential energy is created as the person is falling; the potential energy is then converted into kinetic energy upon impact.",
+                "D": "Potential energy is converted to kinetic energy; the kinetic energy is then converted into the work of bringing the body to a stop."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "If a person is standing near a building that explodes, which of the following injuries would he or she MOST likely experience as a result of the pressure wave?",
+            "answers": {
+                "A": "Impaled objects",
+                "B": "Eardrum rupture",
+                "C": "Severe burns",
+                "D": "Fractured bones"
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "The cervical spine is MOST protected from whiplash-type injuries when the:",
+            "answers": {
+                "A": "airbag correctly deploys upon impact.",
+                "B": "patient tenses up at the time of impact.",
+                "C": "headrest is appropriately positioned.",
+                "D": "rear end of the vehicle is initially struck."
             },
             "correctAnswer": "C"
         },
         {
-            "question": "Activated charcoal may be indicated for a patient who ingested:",
+            "question": "What types of motor vehicle collisions present the greatest potential for multiple impacts?",
             "answers": {
-                "A": "aspirin.",
-                "B": "methanol.",
-                "C": "iron.",
-                "D": "ethanol."
+                "A": "Rotational and rollover",
+                "B": "Rear-end and rotational",
+                "C": "Frontal and rotational",
+                "D": "Lateral and rollover"
             },
             "correctAnswer": "A"
         },
         {
-            "question": "An EMT’s primary responsibility to the patient who has been poisoned is to:",
+            "question": "When assessing a patient who experienced a blast injury, it is important to remember that:",
             "answers": {
-                "A": "recognize that a poisoning occurred.",
-                "B": "administer 25 g of activated charcoal.",
-                "C": "administer the appropriate antidote.",
-                "D": "contact poison control immediately."
-            },
-            "correctAnswer": "A"
-        },
-        {
-            "question": "Heroin is an example of a(n):",
-            "answers": {
-                "A": "opioid.",
-                "B": "cholinergic.",
-                "C": "hypnotic.",
-                "D": "sympathomimetic."
-            },
-            "correctAnswer": "A"
-        },
-        {
-            "question": "Hypotension, hypoventilation, and pinpoint pupils would be expected following an overdose of:",
-            "answers": {
-                "A": "amphetamine sulfate (Benzedrine).",
-                "B": "oxycodone (Percocet).",
-                "C": "crack cocaine.",
-                "D": "ecstasy."
-            },
-            "correctAnswer": "B"
-        },
-        {
-            "question": "Most poisonings occur via the __________ route.",
-            "answers": {
-                "A": "injection",
-                "B": "inhalation",
-                "C": "absorption",
-                "D": "ingestion"
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "Substance abuse is most accurately defined as:",
-            "answers": {
-                "A": "knowingly selling illicit drugs to buy more drugs.",
-                "B": "willfully using a therapeutic drug to treat a medical illness.",
-                "C": "unwillingly and unknowingly consuming drugs or alcohol.",
-                "D": "misusing a substance to produce a desired effect."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "____________ is what you can see of a person’s response to the environment.",
-            "answers": {
-                "A": "Neurosis",
-                "B": "Behavior",
-                "C": "Psychosis",
-                "D": "Affect"
-            },
-            "correctAnswer": "B"
-        },
-        {
-            "question": "A technique used to gain insight into a patient’s thinking, which involves repeating in question form what the patient has said, is called:",
-            "answers": {
-                "A": "intuitive listening.",
-                "B": "passive listening.",
-                "C": "active listening.",
-                "D": "reflective listening."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "After ensuring his or her own safety, the EMT’s next priority when caring for a patient with a behavioral emergency is to:",
-            "answers": {
-                "A": "assess the patient’s response to his or her environment.",
-                "B": "transport the patient directly to a specialized psychiatric facility.",
-                "C": "determine the underlying cause of the problem and offer advice.",
-                "D": "diagnose the patient’s problem and provide definitive treatment."
-            },
-            "correctAnswer": "A"
-        },
-        {
-            "question": "Posttraumatic stress disorder can happen after:",
-            "answers": {
-                "A": "alcohol withdrawal.",
-                "B": "a bout with depression.",
-                "C": "extended periods of hyperthermia or hypothermia.",
-                "D": "exposure to or injury from a traumatic occurrence."
-            },
-            "correctAnswer": "D"
-        },
-        {
-            "question": "Signs of excited delirium include:",
-            "answers": {
-                "A": "subdued behavior, crying, and suicidal thoughts.",
-                "B": "diaphoresis, tachycardia, and hallucinations.",
-                "C": "slurred speech, bradycardia, and a high fever.",
-                "D": "pallor, hypotension, and constricted pupils."
-            },
-            "correctAnswer": "B"
-        },
-        {
-            "question": "The single most significant factor that contributes to suicide is:",
-            "answers": {
-                "A": "a chronic illness.",
-                "B": "depression.",
-                "C": "advanced age.",
-                "D": "drug abuse."
-            },
-            "correctAnswer": "B"
-        },
-        {
-            "question": "The term “behavioral crisis” is MOST accurately defined as:",
-            "answers": {
-                "A": "a medical illness with psychological symptoms that may lead to limited motor functioning.",
-                "B": "a situation in which a patient of any age exhibits agitated, violent, or uncooperative behavior.",
-                "C": "a period of severe depression that lasts longer than 2 weeks and cannot be controlled with medications.",
-                "D": "a sudden, violent outburst of an otherwise mentally stable person toward a family member."
-            },
-            "correctAnswer": "B"
-        },
-        {
-            "question": "When assessing a patient who is displaying bizarre behavior, the EMT should:",
-            "answers": {
-                "A": "consider that an acute medical illness may be causing the patient’s behavior.",
-                "B": "avoid asking questions about suicide because this may give the patient ideas.",
-                "C": "check his or her blood glucose level only if he or she has a history of diabetes.",
-                "D": "carefully document his or her perception of what is causing the patient’s behavior."
-            },
-            "correctAnswer": "A"
-        },
-        {
-            "question": "You receive a call for a domestic dispute. When you arrive at the scene, you find a young male standing on the front porch of his house. You notice that an adjacent window is broken. The patient has a large body, is clenching his fists, and is yelling obscenities at you. Which of the following findings is LEAST predictive of this patient’s potential for violence?",
-            "answers": {
-                "A": "The broken window",
-                "B": "His clenched fists",
-                "C": "His large body size",
-                "D": "His shouting of obscenities"
+                "A": "secondary blast injuries are usually the least obvious.",
+                "B": "solid organs usually rupture from the pressure wave.",
+                "C": "primary blast injuries are the most easily overlooked.",
+                "D": "primary blast injuries are typically the most obvious."
             },
             "correctAnswer": "C"
         },
         {
-            "question": "A raised, swollen, well-defined area on the skin that is the result of an insect bite or sting is called:",
+            "question": "A 15-year-old female was struck by a small car while riding her bicycle. She was wearing a helmet and was thrown to the ground, striking her head. In addition to managing problems associated with airway, breathing, and circulation, it is MOST important for you to:",
             "answers": {
-                "A": "a wheal.",
-                "B": "urticaria.",
-                "C": "purpura.",
-                "D": "a pustule."
+                "A": "obtain baseline vital signs.",
+                "B": "leave her bicycle helmet on.",
+                "C": "inspect the helmet for cracks.",
+                "D": "stabilize her entire spine."
             },
-            "correctAnswer": "A"
+            "correctAnswer": "D"
         },
         {
-            "question": "Epinephrine is indicated for patients with an allergic reaction when:",
+            "question": "A 30-year-old male sustained a stab wound to the neck when he was attacked outside a nightclub. During your assessment, you should be MOST alert for:",
             "answers": {
-                "A": "a paramedic is present at the scene.",
-                "B": "the reaction produces severe urticaria.",
-                "C": "wheezing and hypotension are present.",
-                "D": "the patient is anxious and tachycardic."
+                "A": "damage to internal structures.",
+                "B": "alterations in his mental status.",
+                "C": "potential airway compromise.",
+                "D": "injury to the cervical spine."
             },
             "correctAnswer": "C"
         },
         {
-            "question": "Immediately after giving an epinephrine injection, you should:",
+            "question": "A 40-year-old unrestrained female impacted the steering wheel of her vehicle with her chest when she hit a tree while traveling at 45 mph. She is conscious and alert, but is experiencing significant chest pain and shortness of breath. Which of the following injuries is the LEAST likely?",
             "answers": {
-                "A": "properly dispose of the syringe.",
-                "B": "notify medical control of your action.",
-                "C": "reassess the patient’s vital signs.",
-                "D": "record the time and dose given."
+                "A": "Pulmonary contusion",
+                "B": "Multiple rib fractures",
+                "C": "Cardiac contusion",
+                "D": "Head injury"
             },
-            "correctAnswer": "A"
+            "correctAnswer": "D"
         },
         {
-            "question": "The effects of epinephrine are typically observed within _________ following administration.",
+            "question": "A young male sustained a gunshot wound to the abdomen during an altercation. As your partner is assessing and managing his airway, you should control the obvious bleeding and then:",
             "answers": {
-                "A": "1 minute",
-                "B": "1 hour",
-                "C": "30 minutes",
-                "D": "30 seconds"
-            },
-            "correctAnswer": "A"
-        },
-        {
-            "question": "The stinger from a honeybee should be:",
-            "answers": {
-                "A": "squeezed with tweezers and removed.",
-                "B": "scraped away from the skin.",
-                "C": "left in place and covered.",
-                "D": "irrigated with copious amounts of water."
+                "A": "apply a cervical collar.",
+                "B": "assess for an exit wound.",
+                "C": "obtain baseline vital signs.",
+                "D": "auscultate bowel sounds."
             },
             "correctAnswer": "B"
         },
         {
-            "question": "Two of the MOST common signs of anaphylaxis are:",
+            "question": "During your assessment of a patient who experienced a blast injury, you note that he has a depressed area to the front of his skull. This injury MOST likely occurred:",
             "answers": {
-                "A": "urticaria and angioedema.",
-                "B": "hypertension and swollen hands.",
-                "C": "expiratory stridor and tachycardia.",
-                "D": "watery eyes and localized itching."
+                "A": "by inhaling toxic gases.",
+                "B": "when the patient was hurled against a stationary object.",
+                "C": "as a result of flying debris.",
+                "D": "as a direct result of the pressure wave."
             },
-            "correctAnswer": "A"
+            "correctAnswer": "B"
         },
         {
-            "question": "Urticaria is the medical term for:",
+            "question": "Two of the MOST common mechanisms of injury for blunt trauma are:",
             "answers": {
-                "A": "swelling.",
-                "B": "a wheal.",
-                "C": "burning.",
-                "D": "hives."
+                "A": "gunshot wounds and vehicle ejections.",
+                "B": "low-caliber gunshot wounds and falls.",
+                "C": "falls and motor vehicle collisions.",
+                "D": "motor vehicle collisions and stabbings."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following injuries would MOST likely occur as a direct result of the third collision in a motor vehicle crash?",
+            "answers": {
+                "A": "Forehead lacerations",
+                "B": "Extremity fractures",
+                "C": "Aortic rupture",
+                "D": "Flail chest"
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following statements regarding gunshot wounds is correct?",
+            "answers": {
+                "A": "The size of a bullet has the greatest impact on the injury produced.",
+                "B": "High-velocity bullets will cause less severe internal injuries.",
+                "C": "Low-velocity bullets will cause the greatest amount of trauma.",
+                "D": "The speed of a bullet has the greatest impact on the injury produced."
             },
             "correctAnswer": "D"
         },
         {
-            "question": "Which of the following sounds indicates swelling of the upper airway?",
+            "question": "While assessing a young male who was struck in the chest with a steel pipe, you note that his pulse is rapid and irregular. You should be MOST suspicious for:",
             "answers": {
-                "A": "Stridor",
-                "B": "Rales",
-                "C": "Wheezing",
-                "D": "Rhonchi"
+                "A": "a lacerated coronary artery.",
+                "B": "bruising of the heart muscle.",
+                "C": "underlying cardiac disease.",
+                "D": "traumatic rupture of the aorta."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "While en route to a major motor vehicle crash, an on-scene police officer advises you that a 6-year-old male who was riding in the front seat is involved. He further states that the child was only wearing a lap belt and that the airbag deployed. On the basis of this information, you should be MOST suspicious that the child has experienced:",
+            "answers": {
+                "A": "lower extremity fractures.",
+                "B": "blunt trauma to the head.",
+                "C": "neck and facial injuries.",
+                "D": "open abdominal trauma."
+            },
+            "correctAnswer": "C"
+        },
+    
+
+    // quiz 9
+    
+        {
+            "question": "A 22-year-old male was kicked in the abdomen multiple times during an assault. He is conscious but restless and his pulse is rapid. His skin is cold and moist. Your assessment reveals a large area of bruising to the right upper quadrant of his abdomen. The most appropriate treatment for this patient includes:",
+            "answers": {
+                "A": "applying oxygen via nasal cannula.",
+                "B": "preparing for immediate transport.",
+                "C": "a detailed assessment of his abdomen.",
+                "D": "performing a focused physical exam."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "External bleeding from a vein is relatively easy to control because:",
+            "answers": {
+                "A": "veins are under a lower pressure.",
+                "B": "veins carry deoxygenated blood.",
+                "C": "veins hold smaller blood volume.",
+                "D": "blood typically oozes from a vein."
             },
             "correctAnswer": "A"
         },
         {
-            "question": "While auscultating breath sounds of a patient who was stung multiple times by a yellow jacket, you hear bilateral wheezing over all lung fields. This indicates:",
+            "question": "Gastrointestinal bleeding should be suspected if a patient presents with:",
             "answers": {
-                "A": "rapid swelling of the upper airway tissues.",
-                "B": "a significant amount of fluid in the alveoli.",
-                "C": "enlargement of the bronchioles in the lungs.",
-                "D": "narrowing of the bronchioles in the lungs."
+                "A": "dyspnea.",
+                "B": "hematuria.",
+                "C": "hemoptysis.",
+                "D": "hematemesis."
             },
             "correctAnswer": "D"
+        },
+        {
+            "question": "Hypoperfusion is another name for:",
+            "answers": {
+                "A": "cyanosis.",
+                "B": "cellular death.",
+                "C": "hypoxemia.",
+                "D": "shock."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "Hypovolemic shock occurs when:",
+            "answers": {
+                "A": "the clotting ability of the blood is enhanced.",
+                "B": "at least 10% of the patient’s blood volume is lost.",
+                "C": "low fluid volume leads to inadequate perfusion.",
+                "D": "the patient’s systolic BP is less than 100 mm Hg."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "The ability of a person’s cardiovascular system to compensate for blood loss is most related to:",
+            "answers": {
+                "A": "the part of the body injured.",
+                "B": "his or her baseline blood pressure.",
+                "C": "how fast his or her heart beats.",
+                "D": "how rapidly he or she bleeds."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "A burn that is characterized by redness and pain is classified as a:",
+            "answers": {
+                "A": "full-thickness burn.",
+                "B": "partial-thickness burn.",
+                "C": "second-degree burn.",
+                "D": "superficial burn."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "A closed soft-tissue injury characterized by swelling and ecchymosis is called a(n):",
+            "answers": {
+                "A": "hematoma.",
+                "B": "abrasion.",
+                "C": "crush injury.",
+                "D": "contusion."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "A hematoma develops when:",
+            "answers": {
+                "A": "large blood vessels beneath the skin are damaged.",
+                "B": "cells and small vessels in the dermis are damaged.",
+                "C": "severe swelling compromises arterial circulation.",
+                "D": "small amounts of blood leak into the epidermis."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "A partial-thickness burn involves the outer layer of skin and a portion of the:",
+            "answers": {
+                "A": "dermal layer.",
+                "B": "fatty layer.",
+                "C": "muscle fascia.",
+                "D": "epidermis."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "An abdominal evisceration:",
+            "answers": {
+                "A": "should be covered with bulky dry, sterile dressings.",
+                "B": "is most commonly the result of blunt force trauma.",
+                "C": "occurs when organs protrude through an open wound.",
+                "D": "often causes severe hypothermia because of heat loss."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "An injury that separates various layers of soft tissue, resulting in complete detachment or a flap of skin, is called a(n):",
+            "answers": {
+                "A": "avulsion.",
+                "B": "laceration.",
+                "C": "incision.",
+                "D": "amputation."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "Functions of the skin include all of the following, except:",
+            "answers": {
+                "A": "maintenance of water balance.",
+                "B": "the production of key antibodies.",
+                "C": "sending information to the brain.",
+                "D": "regulation of body temperature."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "In addition to severe bleeding, the most life-threatening complication associated with an open neck injury is:",
+            "answers": {
+                "A": "an air embolism.",
+                "B": "a spinal fracture.",
+                "C": "an ischemic stroke.",
+                "D": "nerve fiber damage."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "When assessing a patient with a closed soft-tissue injury, it is most important to:",
+            "answers": {
+                "A": "assess circulation distal to the site of the injury.",
+                "B": "manipulate the injury site for signs of a fracture.",
+                "C": "remain alert for more severe underlying injuries.",
+                "D": "recognize that the integrity of the skin is broken."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "When caring for a patient whose arm is covered with a dry chemical, you should:",
+            "answers": {
+                "A": "deactivate the chemical with a 5% vinegar solution.",
+                "B": "use forceful streams of water to remove the chemical.",
+                "C": "quickly irrigate the arm with large amounts of water.",
+                "D": "brush away the chemical before flushing with water."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "When treating a partial-thickness burn, you should:",
+            "answers": {
+                "A": "rupture any blisters to prevent an infection.",
+                "B": "cover the burn with a moist, sterile dressing.",
+                "C": "avoid the use of creams, lotions, or antiseptics.",
+                "D": "immerse the affected part in warm water."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following areas of the body has the thinnest skin?",
+            "answers": {
+                "A": "Ears",
+                "B": "Scalp",
+                "C": "Back",
+                "D": "Soles of the feet"
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "Which of the following statements regarding the rule of nines is correct?",
+            "answers": {
+                "A": "The anterior trunk of an adult is equal to 18% of the body surface area.",
+                "B": "A child’s head is equal to 14% of his or her total body surface area.",
+                "C": "The anterior arm in the adult is equal to 9% of the total body surface area.",
+                "D": "The posterior of a child’s leg is equal to 13.5% of the body surface area."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "You have applied a dressing and roller-gauze bandage to a laceration on the arm of a young female. During transport, she begins to complain of numbness and tingling in her hand. You should:",
+            "answers": {
+                "A": "carefully manipulate her arm until the symptoms subside.",
+                "B": "remove the gauze bandage and replace it with an elastic one.",
+                "C": "remove the bandage and dressing and apply another one.",
+                "D": "assess distal circulation and readjust the bandage as needed."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "Bleeding from soft-tissue injuries to the face is most effectively controlled with:",
+            "answers": {
+                "A": "pressure dressings and chemical ice packs.",
+                "B": "digital pressure to an adjacent pulse point.",
+                "C": "direct pressure using dry, sterile dressings.",
+                "D": "ice packs and elevation of the patient’s head."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Facial injuries should be identified and treated as soon as possible because:",
+            "answers": {
+                "A": "bleeding must be controlled early.",
+                "B": "the spine might be injured as well.",
+                "C": "of the risk for airway problems.",
+                "D": "swelling might mask hidden injuries."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Frequent reassessments of the patient with face or neck injuries are most important because:",
+            "answers": {
+                "A": "they lend credibility to your documentation.",
+                "B": "rapid facial swelling might mask hidden injuries.",
+                "C": "hospital staff require frequent patient updates.",
+                "D": "such injuries can affect the respiratory system."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "The Adam’s apple is:",
+            "answers": {
+                "A": "the small indentation in between the thyroid and cricoid cartilages.",
+                "B": "the upper part of the larynx that is formed by the thyroid cartilage.",
+                "C": "below the thyroid cartilage and forms the upper part of the trachea.",
+                "D": "the lower part of the larynx that is formed by the cricoid cartilage."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "The conjunctiva are kept moist by fluid produced by the:",
+            "answers": {
+                "A": "optic chiasma.",
+                "B": "posterior orbit.",
+                "C": "lacrimal gland.",
+                "D": "corneal duct."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "The lower jawbone is called the:",
+            "answers": {
+                "A": "zygoma.",
+                "B": "maxillae.",
+                "C": "mandible.",
+                "D": "mastoid."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "The mastoid process is located approximately:",
+            "answers": {
+                "A": "1 inch inferior to the external opening of the ear.",
+                "B": "1 inch posterior to the external opening of the ear.",
+                "C": "1 inch posterior to the angle of the mandible.",
+                "D": "½ inch anterior to the external opening of the ear."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "The small, rounded, fleshy bulge immediately anterior to the ear canal is called the:",
+            "answers": {
+                "A": "stapes.",
+                "B": "pinna.",
+                "C": "incus.",
+                "D": "tragus."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "The superficial temporal artery can be palpated:",
+            "answers": {
+                "A": "just anterior to the tragus.",
+                "B": "slightly above the ear.",
+                "C": "at the angle of the jaw.",
+                "D": "over the mastoid process."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "What is the function of the sternocleidomastoid muscle?",
+            "answers": {
+                "A": "Allows flexion of the neck",
+                "B": "Allows movement of the head",
+                "C": "Provides respiration",
+                "D": "Connects the scapulae together"
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "When a light is shone into the pupil:",
+            "answers": {
+                "A": "the opposite pupil should dilate.",
+                "B": "both pupils should dilate together.",
+                "C": "it should become smaller in size.",
+                "D": "it should become larger in size."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following findings would be least suggestive of a head injury?",
+            "answers": {
+                "A": "Briskly constricting pupils when exposed to light",
+                "B": "Failure of the eyes to move in the same direction",
+                "C": "One pupil larger in size than the other pupil",
+                "D": "Failure of the eyes to follow movement of an object"
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "A 43-year-old man is experiencing a severe nosebleed. His blood pressure is 190/110 mm Hg and his heart rate is 90 beats/min and bounding. Preferred treatment for this patient includes:",
+            "answers": {
+                "A": "having the patient pinch his own nostrils and then lie supine.",
+                "B": "pinching the patient’s nostrils and having him lean forward.",
+                "C": "packing both nostrils with gauze pads until the bleeding stops.",
+                "D": "placing a rolled 4 × 4-inch dressing between his lower lip and gum."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "A 67-year-old male presents with weakness, dizziness, and melena that began approximately two days ago. He denies a history of trauma. His blood pressure is 90/50 mm Hg and his pulse is 120 beats/min and thready. You should be most suspicious that this patient is experiencing:",
+            "answers": {
+                "A": "intrathoracic hemorrhaging.",
+                "B": "acute appendicitis.",
+                "C": "gastrointestinal bleeding.",
+                "D": "an aortic aneurysm."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "A patient is bleeding severely from a severed femoral artery high in the groin region. Which of the following would most likely control the bleeding?",
+            "answers": {
+                "A": "Apply a pelvic binder device to stabilize the pelvis.",
+                "B": "Position the patient with his injured side down.",
+                "C": "Apply chemical ice packs to the wound and transport.",
+                "D": "Apply a topical hemostatic agent with direct pressure."
+            },
+            "correctAnswer": "D"
+        },
+        {
+            "question": "A young male was shot in the abdomen by an unknown type of gun. Law enforcement personnel have ensured that the scene is safe. The patient is semiconscious, has shallow breathing, and is bleeding externally from the wound. As you control the external bleeding, your partner should:",
+            "answers": {
+                "A": "assist the patient’s ventilations.",
+                "B": "perform a secondary assessment.",
+                "C": "obtain baseline vital signs.",
+                "D": "apply a nonrebreathing mask."
+            },
+            "correctAnswer": "A"
+        },
+        {
+            "question": "After applying a pressure dressing to a laceration on a patient’s arm, you notice that blood is slowly beginning to saturate it. You should:",
+            "answers": {
+                "A": "splint the arm and keep it below heart level.",
+                "B": "place additional dressings over the wound.",
+                "C": "replace the dressing with another dressing.",
+                "D": "apply a tourniquet proximal to the wound."
+            },
+            "correctAnswer": "B"
+        },
+        {
+            "question": "All of the following should be addressed during the primary assessment except:",
+            "answers": {
+                "A": "severe hemorrhage.",
+                "B": "airway obstruction.",
+                "C": "capillary bleeding.",
+                "D": "slow, shallow breathing."
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "In which of the following situations would external bleeding be the most difficult to control?",
+            "answers": {
+                "A": "Carotid artery laceration and a systolic blood pressure of 60 mm Hg",
+                "B": "Antecubital vein laceration and a blood pressure of 138/92 mm Hg",
+                "C": "Femoral artery laceration and a blood pressure of 140/90 mm Hg",
+                "D": "Jugular vein laceration and a systolic blood pressure of 90 mm Hg"
+            },
+            "correctAnswer": "C"
+        },
+        {
+            "question": "Which of the following is not considered a basic technique when controlling bleeding?",
+            "answers": {
+                "A": "Pack the wound with a hemostatic impregnated gauze.",
+                "B": "Apply a cervical collar and place the patient on a long backboard.",
+                "C": "Apply direct pressure over the wound with a dry, sterile dressing.",
+                "D": "Apply a tourniquet to an extremity above the level of the bleeding."
+            },
+            "correctAnswer": "B"
         }
     
 
@@ -2637,6 +3343,7 @@ function App() {
   return (
     <div className="App" style={{maxWidth: '800px', margin: '0 auto'}}>
       <h1>Quiz App</h1>
+      <button onClick={() => setSelectedAnswers({})}>Clear answers</button>
 
       <ol>
       {questions.map((question, index) => (
