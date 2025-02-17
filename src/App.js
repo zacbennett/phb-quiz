@@ -12,15 +12,23 @@ function App() {
   const [selectedAnswers, setSelectedAnswers] = useState(
     Object.keys(originalAnswers).length === 0 ? {} : JSON.parse(originalAnswers)
   );
-  const handleAnswerChange = (questionIndex, answer) => {
-    const newAnswers = { ...selectedAnswers, [questionIndex]: answer };
+  const handleAnswerChange = (question, answer, title) => {
+    if (window.amplitude) {
+      window.amplitude.track("Question Answered", {
+        "question": question,
+        "answer": answer,
+        "isCorrect": questionToAnswerSet[question] === answer,
+        "quizTitle": title,
+      })
+    }
+    const newAnswers = { ...selectedAnswers, [question]: answer };
     setSelectedAnswers(newAnswers);
     localStorage.setItem("answerstate21025", JSON.stringify(newAnswers));
   };
 
-  const isCorrect = (questionIndex) => {
+  const isCorrect = (question) => {
     return (
-      selectedAnswers[questionIndex] === questionToAnswerSet[questionIndex]
+      selectedAnswers[question] === questionToAnswerSet[question]
     );
   };
   return (
@@ -50,7 +58,7 @@ function App() {
                             name={`question_${elem.question}`}
                             value={key}
                             onChange={() =>
-                              handleAnswerChange(elem.question, key)
+                              handleAnswerChange(elem.question, key, section.title)
                             }
                             checked={selectedAnswers[elem.question] === key}
                           />
